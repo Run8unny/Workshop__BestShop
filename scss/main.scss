@@ -1,0 +1,16 @@
+/* Settings */
+@import "settings/_variable.scss";
+@import "settings/_mixins.scss";
+
+/* Generic */
+@import "generic/reset";
+
+/*Elements*/
+@import "elements/_base.scss";
+@import "elements/_contact.scss";
+@import "elements/_footer.scss";
+@import "elements/_header.scss";
+@import "elements/_hero.scss";
+@import "elements/_info.scss";
+@import "elements/_platform.scss";
+@import "elements/_pricing.scss";
