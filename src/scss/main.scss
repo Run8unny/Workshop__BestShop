@@ -1,0 +1,16 @@
+/* Settings */
+@import "settings/variable";
+@import "settings/mixins";
+
+/* Generic */
+@import "generic/reset";
+
+/*Elements*/
+@import "elements/base";
+@import "elements/contact";
+@import "elements/footer";
+@import "elements/header";
+@import "elements/hero";
+@import "elements/info";
+@import "elements/platform";
+@import "elements/pricing";
