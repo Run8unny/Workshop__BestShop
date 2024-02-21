@@ -59,13 +59,13 @@
 }
 
 .info--mail::before {
-  //content: url("../../assets/email.png");
+  content: url("../assets/email.png");
   height: 27px;
   margin-right: 8px;
 }
 
 .info--phone::before {
-  content: url("./assets/phone-ringing.png");
+  content: url("../assets/phone-ringing.png");
   height: 27px;
   margin-left: 20px;
   margin-right: 8px;
@@ -135,7 +135,7 @@
 }
 
 .form__checkbox input:checked ~ .checkbox {
-  background-image: url("./assets/check-mark.png");
+  background-image: url("../assets/check-mark.png");
   background-position: center;
   background-size: 75%;
   background-repeat: no-repeat;
