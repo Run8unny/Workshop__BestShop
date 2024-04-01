@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="scss/main.scss">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Unbounded:wght@200..900&display=swap"
           rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f6b5c78ff2.js" crossorigin="anonymous"></script>
     <script src="js/script.js" type="module"></script>
 </head>
 
@@ -221,21 +222,22 @@
 </section>
 
 
-<section class="section  calc" id="calcId">
-    <h2>Check how much you’ll pay</h2>
+<section class="section  container  section__calc" id="calcId">
+    <h2 class="title calc__title">Check how much you’ll pay</h2>
 
 
     <div class="calc__columns">
         <form class="calc__form">
-            <div class="calc__input">
-                <input type="number" class="form__input" id="products" min="1" step="1" placeholder="Products quantity"/>
+            <div class="calc__inputs">
+                <input type="number" class="calc__input" id="products" min="1" step="1" placeholder="Products quantity"/>
             </div>
-            <div class="calc__input">
-                <input type="number" class="form__input" id="orders" min="1" step="1" placeholder="Estimated orders in month"/>
+            <div class="calc__inputs">
+                <input type="number" class="calc__input" id="orders" min="1" step="1" placeholder="Estimated orders in month"/>
             </div>
             <div class="calc__select" id="package" data-value="">
                 <div class="select__input">
                     Choose package
+                    <i class="fa-regular fa-circle-down"></i>
                 </div>
 
                 <ul class="select__dropdown">
@@ -283,7 +285,7 @@
                 </li>
             </ul>
             <div class="summary__total" id="total-price">
-                <span>Price</span>
+                <span>Total price</span>
                 <span class="total__price">$700</span>
             </div>
         </div>
@@ -352,10 +354,10 @@
             <span class="text  footer__text">© 2019 BestShop LTD, All Rights Reserved</span>
         </div>
         <div class="footer__box__media">
-            <a href="/" class="footer__media">
+            <a href="https://twitter.com/" class="footer__media">
                 <img src="assets/twitter.png" alt="Twitter logo">
             </a>
-            <a href="/" class="footer__media">
+            <a href="https://www.facebook.com/" class="footer__media">
                 <img src="assets/facebook.png" alt="Facebook logo">
             </a>
         </div>
