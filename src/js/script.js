@@ -1,3 +1,5 @@
+
+
 function menuBurger() {
     const btn = document.querySelector(".burger__menu");
     const body = document.querySelector("body");
