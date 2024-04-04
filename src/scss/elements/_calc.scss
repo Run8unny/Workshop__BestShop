@@ -1,3 +1,7 @@
+/*------------------------------------*\
+  #CALC
+\*------------------------------------*/
+
 .section__calc {
   padding: 100px 0;
   background-color: $color-black;
@@ -36,6 +40,19 @@
   margin: 10px;
 }
 
+.consent__text {
+  padding: 8px 2px;
+  font-size: 1.2rem;
+}
+
+.form__checkbox {
+  margin: 10px 20px;
+}
+
+.list__item {
+  display: none;
+}
+
 .select__input {
   display: flex;
   justify-content: space-between;
@@ -45,16 +62,25 @@
   border: none;
   border-radius: 50px;
   box-shadow: $box-sh-container;
-  padding: 15px 20px;
+  padding: 20px;
   margin: 10px 10px 30px 10px;
+  position: relative;
+
+  &::after {
+    content: "";
+    background-image: url("../assets/arrow2.svg");
+    width: 25px;
+    height: 25px;
+    display: block;
+    position: absolute;
+    right: 25px;
+    top: 15px;
+  }
 }
-.select__input i {
-  font-size: 23px;
-}
+
 
 .select__dropdown  li {
   font-family: $font-lato;
-  display: none;
   color: $color-black;
   width: 92%;
   background-color: white;
@@ -65,6 +91,11 @@
   margin: 10px;
 }
 
+.select__dropdown {
+  cursor: pointer;
+  display: none;
+}
+
 .summary__total {
   display: flex;
   justify-content: space-between;
@@ -73,27 +104,28 @@
   border-radius: 50px;
   box-shadow: $box-sh-container;
   padding: 20px;
-  margin: 40px 10px;
+  margin: 80px 10px 0 10px;
 
   &:hover {
-  outline: 2px solid #87CEFA;
-  box-shadow: $box-sh-primary;
+    outline: 1px solid #87CEFA;
+    box-shadow: $box-sh-primary;
   }
 }
 
-.consent__text {
-  padding: 8px 2px;
-  font-size: 1.2rem;
-}
-
-.form__checkbox {
-  margin: 10px 20px;
-}
-
-.calc__summary ul li {
+.open {
   display: flex;
   justify-content: space-between;
+
 }
+.select__dropdown.open {
+  margin-right: 25px;
+  margin-bottom: 20px;
+}
+
+.select__input.open::after {
+  transform: rotate(180deg);
+}
+
 
 @media (max-width: 850px) {
 
