@@ -1,10 +1,8 @@
 function menuBurger() {
-    const btn = document.querySelector(".burger__menu");
+    const btnNav = document.querySelector(".burger__menu");
     const body = document.querySelector("body");
 
-    btn.onclick = () => {
-        body.classList.toggle("show-menu");
-    }
+    btnNav.addEventListener("click", () =>  body.classList.toggle("show-menu") )
 }
 
 menuBurger();
@@ -39,8 +37,6 @@ class Calculator {
                 price: summary.querySelector(".total__price")
             }
         };
-
-
     }
 
     handleInputs(e) {
