@@ -8,7 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Unbounded:wght@200..900&display=swap"
           rel="stylesheet">
     <script src="https://kit.fontawesome.com/f6b5c78ff2.js" crossorigin="anonymous"></script>
-    <script src="js/script.js" type="module"></script>
+
 </head>
 
 
@@ -236,7 +236,6 @@
             <div class="calc__select" id="package" data-value="">
                 <div class="select__input">
                     Choose package
-                    <i class="fa-regular fa-circle-down"></i>
                 </div>
 
                 <ul class="select__dropdown">
@@ -261,22 +260,22 @@
             <ul>
                 <li class="list__item" data-id="products">
                     <span class="item__type">Products</span>
-                    <span class="item__calc">20 * $0.5</span>
-                    <span class="item__price">$10</span>
+                    <span class="item__calc">num*order</span>
+                    <span class="item__price">$price</span>
                 </li>
                 <li class="list__item" data-id="orders">
                     <span class="item__type">Orders</span>
-                    <span class="item__calc">20 * $0.5</span>
-                    <span class="item__price">$10</span>
+                    <span class="item__calc">num*order</span>
+                    <span class="item__price">$price</span>
                 </li>
                 <li class="list__item" data-id="package">
                     <span class="item__type">Package</span>
-                    <span class="item__calc">Premium</span>
-                    <span class="item__price">$10</span>
+                    <span class="item__calc">type</span>
+                    <span class="item__price">$price</span>
                 </li>
                 <li class="list__item" data-id="accounting">
                     <span class="item__type">Accounting</span>
-                    <span class="item__price">$15</span>
+                    <span class="item__price">$25</span>
                 </li>
                 <li class="list__item" data-id="terminal">
                     <span class="item__type">Terminal</span>
@@ -285,7 +284,7 @@
             </ul>
             <div class="summary__total" id="total-price">
                 <span>Total price</span>
-                <span class="total__price">$700</span>
+                <span class="total__price">$0</span>
             </div>
         </div>
 
@@ -363,5 +362,6 @@
     </div>
 </footer>
 
+<script src="js/script.js" type="module"></script>
 </body>
 </html>
