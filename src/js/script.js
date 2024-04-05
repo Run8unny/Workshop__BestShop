@@ -1,4 +1,4 @@
-function menuBurger() {
+const menuBurger = () => {
     const btnNav = document.querySelector(".burger__menu");
     const body = document.querySelector("body");
 
@@ -78,7 +78,6 @@ class Calculator {
     }
 
     handleSelect(e) {
-        const icon = document.querySelector('.icon__calc');
         this.form.package.querySelector('.select__dropdown').classList.toggle('open');
 
         const value = typeof(e.target.dataset.value) !== "undefined" ? e.target.dataset.value : "";
