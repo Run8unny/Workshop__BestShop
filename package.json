@@ -1,5 +1,6 @@
 {
   "name": "workshop__bestshop",
+  "type": "module",
   "version": "2.0.0",
   "description": "This is the workshop for HTML and CSS bootcamp.",
   "source": "src/index.html",
