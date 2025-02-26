@@ -1,81 +1,77 @@
-
 * {
-  box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 html {
-  background-color: $color-black;
+	background-color: $color-black;
 }
 
 body {
-  font-family: $font-lato;
+	font-family: $font-lato;
 }
 
 .container {
-  width: 1352px;
-  margin: 0 auto;
+	width: 1352px;
+	margin: 0 auto;
 
-
-  @include notebook {
-    width: 100%;
-    padding: 0 15px;
-  }
+	@include notebook {
+		width: 100%;
+		padding: 0 15px;
+	}
 }
 
 a {
-  text-decoration: none;
-  font-family: $font-extra;
-  font-size: 1.8rem;
-  color: $color-white;
-  cursor: pointer;
+	text-decoration: none;
+	font-family: $font-extra;
+	font-size: 1.8rem;
+	color: $color-white;
+	cursor: pointer;
 }
 
 .title {
-  font-family: $font-extra;
-  letter-spacing: 1.8px;
-  font-size: 3rem;
+	font-family: $font-extra;
+	letter-spacing: 1.8px;
+	font-size: 3rem;
 }
 
 .text {
-  font-family: $font-lato;
-  font-size: 1.3rem;
+	font-family: $font-lato;
+	font-size: 1.3rem;
 }
 
-
 .logo {
-  font-family: $font-extra;
-  font-weight: 900;
-  font-size: 2rem;
-  color: $color-white;
-  letter-spacing: 2px;
-  text-shadow: $text-sh;
+	font-family: $font-extra;
+	font-weight: 900;
+	font-size: 1.5rem;
+	color: $color-white;
+	letter-spacing: 2px;
+	text-shadow: $text-sh;
 
-
-  &:hover {
-    color: $color-primary;
-  }
+	&:hover {
+		color: $color-primary;
+	}
 }
 
 .btn {
-  background-color: $color-primary;
-  color: $color-white;
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 50px;
-  border: none;
-  font-size: 1.1rem;
-  cursor: pointer;
-  transition: 0.2s;
-  box-shadow: $box-sh-container;
+	background-color: $color-primary;
+	color: $color-white;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50px;
+	border: none;
+	font-size: 1.1rem;
+	cursor: pointer;
+	transition: 0.2s;
+	box-shadow: $box-sh-container;
 
-  &:hover {
-    box-shadow: $box-sh-primary;
-  }
+	&:hover {
+		box-shadow: $box-sh-primary;
+	}
 }
 
 @media (max-width: 1325px) {
-  .title {
-    font-size: 1.8rem;
-  }
+	.title {
+		font-size: 1.8rem;
+	}
 }

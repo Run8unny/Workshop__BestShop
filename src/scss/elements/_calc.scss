@@ -3,144 +3,140 @@
 \*------------------------------------*/
 
 .section__calc {
-  padding: 100px 0;
-  background-color: $color-black;
-  color: $color-white;
-  margin: 20px auto;
+	padding: 100px 0;
+	background-color: $color-black;
+	color: $color-white;
+	margin: 20px auto;
 }
 
 .calc__columns {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  padding: 30px;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	padding: 30px;
 }
 
 .calc__title {
-  text-align: center;
-  margin-bottom: 100px;
+	text-align: center;
+	margin-bottom: 100px;
 }
 
 .calc__input {
-  width: 92%;
-  color: $color-black;
-  background-color: white;
-  border: none;
-  border-radius: 50px;
-  box-shadow: $box-sh-container;
-  padding: 20px;
-  margin: 10px;
+	width: 92%;
+	color: $color-black;
+	background-color: white;
+	border: none;
+	border-radius: 50px;
+	box-shadow: $box-sh-container;
+	padding: 20px;
+	margin: 10px 0 10px 0;
 }
 
 .list__item {
-  background-color: $color-orange;
-  border: none;
-  border-radius: 50px;
-  box-shadow: $box-sh-container;
-  padding: 15px 20px;
-  margin: 10px;
+	background-color: $color-orange;
+	border: none;
+	border-radius: 50px;
+	box-shadow: $box-sh-container;
+	padding: 15px 20px;
+	margin: 10px;
 }
 
 .consent__text {
-  padding: 8px 2px;
-  font-size: 1.2rem;
+	padding: 8px 2px;
+	font-size: 1.2rem;
 }
 
 .form__checkbox {
-  margin: 10px 20px;
+	margin: 10px 0;
 }
 
 .list__item {
-  display: none;
+	display: none;
 }
 
 .select__input {
-  display: flex;
-  justify-content: space-between;
-  color: $color-black;
-  width: 92%;
-  background-color: white;
-  border: none;
-  border-radius: 50px;
-  box-shadow: $box-sh-container;
-  padding: 20px;
-  margin: 10px 10px 30px 10px;
-  position: relative;
+	display: flex;
+	justify-content: space-between;
+	color: $color-black;
+	width: 92%;
+	background-color: white;
+	border: none;
+	border-radius: 50px;
+	box-shadow: $box-sh-container;
+	padding: 20px;
+	margin: 10px 0 30px 0;
+	position: relative;
 
-  &::after {
-    content: "";
-    background-image: url("../assets/arrow2.svg");
-    width: 25px;
-    height: 25px;
-    display: block;
-    position: absolute;
-    right: 25px;
-    top: 15px;
-  }
+	&::after {
+		content: '';
+		background-image: url('../assets/arrow2.svg');
+		width: 25px;
+		height: 25px;
+		display: block;
+		position: absolute;
+		right: 25px;
+		top: 15px;
+	}
 }
 
-.select__dropdown  li {
-  font-family: $font-lato;
-  color: $color-black;
-  width: 92%;
-  background-color: white;
-  border: none;
-  border-radius: 50px;
-  box-shadow: $box-sh-container;
-  padding: 15px;
-  margin: 10px;
+.select__dropdown li {
+	font-family: $font-lato;
+	color: $color-black;
+	width: 92%;
+	background-color: white;
+	border: none;
+	border-radius: 50px;
+	box-shadow: $box-sh-container;
+	padding: 15px;
+	margin: 10px;
 }
 
 .select__dropdown {
-  cursor: pointer;
-  display: none;
+	cursor: pointer;
+	display: none;
 }
 
 .summary__total {
-  display: flex;
-  justify-content: space-between;
-  background-color: $color-primary;
-  border: none;
-  border-radius: 50px;
-  box-shadow: $box-sh-container;
-  padding: 20px;
-  margin: 80px 10px 0 10px;
+	display: flex;
+	justify-content: space-between;
+	background-color: $color-primary;
+	border: none;
+	border-radius: 50px;
+	box-shadow: $box-sh-container;
+	padding: 20px;
+	margin: 90px 10px 0 10px;
 
-  &:hover {
-    outline: 1px solid #87CEFA;
-    box-shadow: $box-sh-primary;
-  }
+	&:hover {
+		outline: 1px solid #87cefa;
+		box-shadow: $box-sh-primary;
+	}
 }
 
 .open {
-  display: flex;
-  justify-content: space-between;
-
+	display: flex;
+	justify-content: space-between;
 }
 .select__dropdown.open {
-  margin-right: 25px;
-  margin-bottom: 20px;
+	margin-right: 25px;
+	margin-bottom: 20px;
 }
 
 .select__input.open::after {
-  transform: rotate(180deg);
+	transform: rotate(180deg);
 }
 
-
 @media (max-width: 850px) {
+	.section__calc {
+		padding: 20px;
+		margin: 0 auto;
+	}
 
-  .section__calc {
-    padding: 20px;
-    margin: 0 auto;
-  }
+	.calc__columns {
+		display: flex;
+		flex-direction: column;
+		gap: 40px;
+	}
 
-  .calc__columns {
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
-  }
-
-  .calc__title {
-    margin-bottom: 50px;
-  }
-
+	.calc__title {
+		margin-bottom: 50px;
+	}
 }

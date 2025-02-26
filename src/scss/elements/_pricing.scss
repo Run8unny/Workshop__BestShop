@@ -2,206 +2,200 @@
   #PRICING
 \*------------------------------------*/
 .section__pricing {
+	padding: 70px 30px 70px 30px;
 }
 
 .section__title {
-  color: $color-white;
+	color: $color-white;
 }
 
 .pricing__container {
-  margin: 70px auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
 .pricing__boxes {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  margin-top: 50px;
-  gap: 2.7rem;
+	max-width: 100%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	gap: 4rem;
 }
 
 .pricing__box {
-  width: 370px;
-  border-radius: 18px;
-  margin-bottom: 100px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  box-shadow: $box-sh-container;
-  outline: 2px solid $color-light-grey;
-  background-color: $color-white;
+	min-width: 300px;
+	width: 450px;
+	border-radius: 18px;
+	margin-bottom: 100px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	box-shadow: $box-sh-container;
+	outline: 2px solid $color-light-grey;
+	background-color: $color-white;
 }
 
 .pricing__details {
-  margin-top: 34px;
-  margin-bottom: 60px;
-  text-align: center;
+	margin-top: 34px;
+	margin-bottom: 60px;
+	text-align: center;
 }
 
 .pricing__title {
-  font-family: $font-extra;
-  font-weight: 700;
-  font-size: 1.4rem;
-  color: $color-black;
+	font-family: $font-extra;
+	font-weight: 700;
+	font-size: 1.4rem;
+	color: $color-black;
 }
 
 .pricing__subtitle {
-  font-family: $font-lato;
-  font-weight: 400;
-  font-size: 3rem;
-  margin-top: 25px;
-  margin-bottom: 20px;
+	font-family: $font-lato;
+	font-weight: 400;
+	font-size: 3rem;
+	margin-top: 25px;
+	margin-bottom: 20px;
 }
 
 .pricing__subtitle--1 {
-  color: $color-violet;
-  margin-bottom: 30px;
+	color: $color-violet;
+	margin-bottom: 30px;
 }
 
 .pricing__subtitle--2 {
-  color: $color-primary;
+	color: $color-primary;
 }
 
 .pricing__subtitle--3 {
-  color: $color-green;
+	color: $color-green;
 }
 
 .pricing__box__text {
-  font-size: 0.9rem;
-  font-weight: 600;
-  color: $color-black;
-  text-align: center;
+	font-size: 0.9rem;
+	font-weight: 600;
+	color: $color-black;
+	text-align: center;
 }
 
 .list__element {
-  font-family: $font-lato;
-  font-size: 0.9rem;
-  color: $color-black;
-  padding: $padding-small;
+	font-family: $font-lato;
+	font-size: 0.9rem;
+	color: $color-black;
+	padding: $padding-small;
 }
 
 .element--1::before {
-  content: "";
-  width: 11px;
-  height: 11px;
-  display: inline-block;
-  margin-right: 10px;
-  background-image: url("../assets/checkmark_1.svg");
+	content: '';
+	width: 11px;
+	height: 11px;
+	display: inline-block;
+	margin-right: 10px;
+	background-image: url('../assets/checkmark_1.svg');
 }
 
 .element--2::before {
-  content: "";
-  width: 11px;
-  height: 11px;
-  display: inline-block;
-  margin-right: 10px;
-  background-image: url("../assets/close.svg");
+	content: '';
+	width: 11px;
+	height: 11px;
+	display: inline-block;
+	margin-right: 10px;
+	background-image: url('../assets/close.svg');
 }
 
 .pricing__box__list {
-  text-align: center;
-  list-style: none;
-  text-decoration: none;
-  margin-bottom: 40px;
+	text-align: center;
+	list-style: none;
+	text-decoration: none;
+	margin-bottom: 40px;
 }
 
 .btn__box {
-  display: block;
-  position: relative;
+	display: block;
+	position: relative;
 }
 
 .btn--pricing {
-  width: 150px;
-  height: 50px;
-  position: relative;
-  bottom: -25px;
+	width: 150px;
+	height: 50px;
+	position: relative;
+	bottom: -25px;
 }
 
 .btn--pricing--violet {
-  background-color: $color-violet;
+	background-color: $color-violet;
 }
-
 
 .btn--pricing--primary {
-  background-color: $color-primary;
+	background-color: $color-primary;
 }
-
 
 .btn--pricing--green {
-  background-color: $color-green;
+	background-color: $color-green;
 }
 
-
 .pricing__box--basic:hover {
-  width: 380px;
-  height: 480px;
-  outline: 6px solid $color-violet;
-  box-shadow: $box-sh-violet;
+	outline: 6px solid $color-violet;
+	box-shadow: $box-sh-violet;
 
-  .btn--pricing--violet {
-    padding: 20px 35px 20px 35px;
-    box-shadow: $box-sh-violet;
-  }
+	.btn--pricing--violet {
+		padding: 20px 35px 20px 35px;
+		box-shadow: $box-sh-violet;
+	}
 }
 
 .pricing__box--professional:hover {
-  width: 380px;
-  height: 480px;
-  outline: 6px solid #87CEFA;
-  box-shadow: $box-sh-primary;
+	outline: 6px solid #87cefa;
+	box-shadow: $box-sh-primary;
 
-
-  .btn--pricing--primary {
-    padding: 20px 35px 20px 35px;
-    border: 0;
-    box-shadow: $box-sh-primary;
-  }
+	.btn--pricing--primary {
+		padding: 20px 35px 20px 35px;
+		border: 0;
+		box-shadow: $box-sh-primary;
+	}
 }
 
 .pricing__box--premium:hover {
-  width: 380px;
-  height: 480px;
-  outline: 6px solid $color-green;
-  box-shadow: $box-sh-green;
+	outline: 6px solid $color-green;
+	box-shadow: $box-sh-green;
 
-  .btn--pricing--green {
-    padding: 20px 35px 20px 35px;
-    border: 0;
-    box-shadow: $box-sh-green;
-  }
+	.btn--pricing--green {
+		padding: 20px 35px 20px 35px;
+		border: 0;
+		box-shadow: $box-sh-green;
+	}
 }
 
-@media (max-width: 750px) {
+@media (max-width: 1080px) {
+	.section__pricing {
+		width: 100%;
+	}
+	.pricing__container {
+	}
 
-  .section__pricing {
-    width: 100%;
-    margin: 0 auto;
-  }
-  .pricing__container {
-    margin: 10px auto;
-  }
+	.pricing__boxes {
+		max-width: 100%;
+		margin: 0 auto;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		gap: 4.8rem;
+	}
 
-  .pricing__box {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
-    padding: 3rem 1.8rem 1rem 1.8rem;
-    margin-bottom: 60px;
-  }
-  .btn--pricing {
-    bottom: -40px;
-    left: 80px;
-  }
-  .pricing__box:hover {
-    height: 380px;
-  }
-  .pricing__box__text {
-    display: none;
-  }
+	.pricing__box {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: 1fr;
+		padding: 3rem 1.8rem 1rem 1.8rem;
+		margin-bottom: 60px;
+	}
+	.btn--pricing {
+		bottom: -30px;
+		left: 90px;
+	}
+
+	.pricing__box__text {
+		display: none;
+	}
 }

@@ -3,220 +3,218 @@
 \*------------------------------------*/
 
 .section__contact {
+	padding: 70px 30px 70px 30px;
 }
 
 .contact__container {
-  padding: 100px 100px;
-  display: flex;
-  justify-content: center;
-  border-left: 1px solid white;
-  border-top: 1px solid white;
-  box-shadow: $box-sh-container;
-  background-color: $color-light-grey;
-  border-radius: 8px;
+	display: flex;
+	justify-content: center;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	border-left: 1px solid white;
+	border-top: 1px solid white;
+	box-shadow: $box-sh-container;
+	background-color: $color-light-grey;
+	border-radius: 8px;
 }
 
 .contact__form {
-  width: 50%;
+	width: 50%;
 }
 
 .contact__form--right {
-  flex-basis: 440px;
-  margin-bottom: 1.25rem;
+	flex-basis: 440px;
+	margin-bottom: 1.25rem;
 }
 
 .form {
-  display: flex;
-  flex-direction: column;
+	display: flex;
+	flex-direction: column;
 }
 
 .form__title {
-  line-height: 3.6875rem;
+	line-height: 3.6875rem;
 }
 
 .form__text {
-  margin: 22px 0 42px;
-  font-size: 1.2rem;
-  line-height: 1.375rem;
+	margin: 22px 0 42px;
+	font-size: 1.2rem;
+	line-height: 1.375rem;
 }
 
 .form__info {
-  font-weight: 500;
-  color: $color-black;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
+	font-weight: 500;
+	color: $color-black;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
 }
 
 .form__info__row {
-  font-family: $font-lato;
-  font-size: 1.2rem;
-  font-weight: 500;
-  color: $color-black;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
+	font-family: $font-lato;
+	font-size: 1.2rem;
+	font-weight: 500;
+	color: $color-black;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
 }
 
 .info--mail::before {
-  content: url("../assets/email.png");
-  height: 27px;
-  margin-right: 8px;
+	content: url('../assets/email.png');
+	height: 27px;
+	margin-right: 8px;
 }
 
 .info--phone::before {
-  content: url("../assets/phone-ringing.png");
-  height: 27px;
-  margin-left: 20px;
-  margin-right: 8px;
+	content: url('../assets/phone-ringing.png');
+	height: 27px;
+	margin-left: 20px;
+	margin-right: 8px;
 }
 
 .form {
-  display: flex;
-  flex-direction: column;
+	display: flex;
+	flex-direction: column;
 }
 
 .form__row {
-  display: flex;
-  flex-direction: column;
+	display: flex;
+	flex-direction: column;
 }
 
 .form__row:first-of-type {
-  margin-bottom: 42px;
+	margin-bottom: 42px;
 }
 
 .form__input {
-  border: none;
-  border-bottom: 1px solid $color-grey;
-  background-color: transparent;
-  line-height: 2.625rem;
-  border-radius: 8px 8px 0 0;
+	border: none;
+	border-bottom: 1px solid $color-grey;
+	background-color: transparent;
+	line-height: 2.625rem;
+	border-radius: 8px 8px 0 0;
 }
 
 .form__label {
-  font-family: $font-extra;
-  font-weight: 900;
-  font-size: 0.75rem;
-  line-height: 1rem;
-  letter-spacing: 3px;
-  color: $color-primary;
-  text-transform: uppercase;
+	font-family: $font-extra;
+	font-weight: 900;
+	font-size: 0.75rem;
+	line-height: 1rem;
+	letter-spacing: 3px;
+	color: $color-primary;
+	text-transform: uppercase;
 }
 
 .form__row--checkbox {
-  margin-top: 30px;
+	margin-top: 30px;
 }
 
 .form__checkbox {
-  display: block;
-  position: relative;
-  padding-left: 35px;
-  margin-bottom: 12px;
-  cursor: pointer;
-  font-size: 1.375rem;
+	display: block;
+	position: relative;
+	padding-left: 35px;
+	margin-bottom: 12px;
+	cursor: pointer;
+	font-size: 1.375rem;
 }
 
 .form__checkbox input {
-  position: absolute;
-  opacity: 0;
-  cursor: pointer;
-  height: 0;
-  width: 0;
+	position: absolute;
+	opacity: 0;
+	cursor: pointer;
+	height: 0;
+	width: 0;
 }
 
 .form__checkbox .checkbox {
-  position: absolute;
-  top: 7px;
-  left: 0;
-  height: 25px;
-  width: 25px;
-  background-color: $color-white;
-  border: 1px solid $color-grey;
-  border-radius: 4px;
+	position: absolute;
+	top: 7px;
+	left: 0;
+	height: 25px;
+	width: 25px;
+	background-color: $color-white;
+	border: 1px solid $color-grey;
+	border-radius: 4px;
 }
 
 .form__checkbox input:checked ~ .checkbox {
-  background-image: url("../assets/check-mark.png");
-  background-position: center;
-  background-size: 75%;
-  background-repeat: no-repeat;
+	background-image: url('../assets/check-mark.png');
+	background-position: center;
+	background-size: 75%;
+	background-repeat: no-repeat;
 }
 
 .checkbox__text {
-  margin: 0 10px;
-  font-size: 0.7rem;
-  color: $color-grey;
-  line-height: 17px;
-  font-family: $font-lato;
+	margin: 0 10px;
+	font-size: 0.7rem;
+	color: $color-grey;
+	line-height: 17px;
+	font-family: $font-lato;
 }
 
 .form__row--button {
-  display: flex;
-  justify-content: flex-end;
-  margin: 2rem 0 0 0;
+	display: flex;
+	justify-content: flex-end;
+	margin: 2rem 0 0 0;
 }
 
 .btn--form {
-  font-family: $font-extra;
-  padding: 20px 97px;
-  align-self: flex-end;
-  margin-top: 30px;
+	font-family: $font-extra;
+	padding: 20px 97px;
+	align-self: flex-end;
+	margin-top: 30px;
 }
 
-
 @media (max-width: 1020px) {
-  .section__contact {
-    width: 100%;
-    margin: 60px auto;
-  }
-  .contact__container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 50px 50px 50px;
-  }
-  .contact__form {
-    width: 80%;
-    margin-bottom: 3.8rem;
-  }
-  .form__row {
-    margin-bottom: 1rem;
-  }
-  .form__row--button {
-    justify-content: center;
-    align-items: center;
-    margin-top: 1.5rem;
-  }
-  .form__text {
-    font-size: 1.1rem;
-  }
+	.section__contact {
+		width: 100%;
+		margin: 60px auto;
+	}
+	.contact__container {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.contact__form {
+		width: 80%;
+		margin-bottom: 3.8rem;
+	}
+	.form__row {
+		margin-bottom: 1rem;
+	}
+	.form__row--button {
+		justify-content: center;
+		align-items: center;
+		margin-top: 1.5rem;
+	}
+	.form__text {
+		font-size: 1.1rem;
+	}
 
-  .checkbox__text {
-    font-size: 0.75rem;
-  }
-
+	.checkbox__text {
+		font-size: 0.75rem;
+	}
 }
 
 @media (max-width: 880px) {
-  .contact__form {
-    width: 100%;
-  }
+	.contact__form {
+		width: 100%;
+	}
 }
 
 @media (max-width: 600px) {
-  .form__info {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-  .info--mail {
-    margin-bottom: 1rem;
-  }
-  .info--phone::before {
-    margin-left: 0.8px;
-  }
-  .checkbox__text {
-    font-size: 0.6rem;
-  }
+	.form__info {
+		flex-direction: column;
+		align-items: flex-start;
+	}
+	.info--mail {
+		margin-bottom: 1rem;
+	}
+	.info--phone::before {
+		margin-left: 0.8px;
+	}
+	.checkbox__text {
+		font-size: 0.6rem;
+	}
 }
-

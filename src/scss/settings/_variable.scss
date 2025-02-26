@@ -1,51 +1,39 @@
 @font-face {
-  font-family: Futura;
-  src: url("./fonts/futura medium bt.ttf");
-  font-style: normal;
-  font-weight: 500;
+	font-family: Futura;
+	src: url('./fonts/futura medium bt.ttf');
+	font-style: normal;
+	font-weight: 500;
 }
 
 //Colors//
-$color-primary: #4A49FF;
-$color-violet: #D08AF0;
-$color-green: #77CC6C;
+$color-primary: #4a49ff;
+$color-violet: #d08af0;
+$color-green: #77cc6c;
 $color-orange: #e07427;
 $color-black: #000000;
 $color-grey: #808080;
-$color-light-grey: #DEDEDF;
-$color-white: #FFFFFF;
+$color-light-grey: #dededf;
+$color-white: #ffffff;
 $gradient: linear-gradient(#e5802d 16%, #ac3b01 64%);
-
 
 //Margins,paddings//
 $padding-main: 1.25rem;
 $padding-small: 0.625rem;
 
 //Fonts//
-$font-lato: "Lato", sans-serif;
-$font-logo: "Unbounded", sans-serif;
-$font-extra: "Futura";
+$font-lato: 'Lato', sans-serif;
+$font-logo: 'Unbounded', sans-serif;
+$font-extra: 'Futura';
 
 //Box-shadow//
-$box-sh-container: rgba(0, 0, 0, 0.3) 0 4px 12px, rgba(0, 0, 0, 0.4) 0 20px 13px -5px, rgba(0, 0, 0, 0.3) 1px -3px 4px inset;
-$box-sh-violet: 0 0 .2rem #fff,
-0 0 .2rem #fff,
-0 0 2rem #bc13fe,
-0 0 0.8rem #bc13fe,
-0 0 2.8rem #bc13fe,
-inset 0 0 1.3rem #bc13fe;
-$box-sh-primary: 0 0 .2rem #fff,
-0 0 .2rem #7092F5,
-0 0 2rem #7092F5,
-0 0 0.8rem #7092F5,
-0 0 2.8rem #7092F5,
-inset 0 0 1.3rem #7092F5;
-$box-sh-green: 0 0 .2rem #fff,
-0 0 .2rem #fff,
-0 0 2rem #00FF33,
-0 0 0.8rem #00FF33,
-0 0 2.8rem #00FF33,
-inset 0 0 1.3rem #00FF33;
+$box-sh-container: rgba(0, 0, 0, 0.3) 0 4px 12px,
+	rgba(0, 0, 0, 0.4) 0 20px 13px -5px, rgba(0, 0, 0, 0.3) 1px -3px 4px inset;
+$box-sh-violet: 0 0 0.2rem #fff, 0 0 0.2rem #fff, 0 0 2rem #bc13fe,
+	0 0 0.8rem #bc13fe, 0 0 2.8rem #bc13fe, inset 0 0 1.3rem #bc13fe;
+$box-sh-primary: 0 0 0.2rem #fff, 0 0 0.2rem #7092f5, 0 0 2rem #7092f5,
+	0 0 0.8rem #7092f5, 0 0 2.8rem #7092f5, inset 0 0 1.3rem #7092f5;
+$box-sh-green: 0 0 0.2rem #fff, 0 0 0.2rem #fff, 0 0 2rem #00ff33,
+	0 0 0.8rem #00ff33, 0 0 2.8rem #00ff33, inset 0 0 1.3rem #00ff33;
 
 //Text-shadow//
-$text-sh: 2px 1px #ac3b01, 3px 2px #FF4D00;
+$text-sh: 2px 1px #000000, 3px 2px #030303;
