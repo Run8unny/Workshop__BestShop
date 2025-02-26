@@ -13,6 +13,7 @@
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	padding: 30px;
+	gap: 30px;
 }
 
 .calc__title {
@@ -21,18 +22,19 @@
 }
 
 .calc__input {
-	width: 92%;
+	width: 100%;
 	color: $color-black;
 	background-color: white;
 	border: none;
 	border-radius: 50px;
 	box-shadow: $box-sh-container;
-	padding: 20px;
-	margin: 10px 0 10px 0;
+	padding: 15px 20px;
+	margin: 10px 0 8px 0;
 }
 
 .list__item {
-	background-color: $color-orange;
+	width: 100%;
+	background-color: $color-grey;
 	border: none;
 	border-radius: 50px;
 	box-shadow: $box-sh-container;
@@ -46,24 +48,25 @@
 }
 
 .form__checkbox {
-	margin: 10px 0;
+	margin: 10px 0 20px 0;
 }
 
 .list__item {
 	display: none;
+	margin: 10px 0 20px 0;
 }
 
 .select__input {
 	display: flex;
 	justify-content: space-between;
 	color: $color-black;
-	width: 92%;
+	width: 100%;
 	background-color: white;
 	border: none;
 	border-radius: 50px;
 	box-shadow: $box-sh-container;
-	padding: 20px;
-	margin: 10px 0 30px 0;
+	padding: 15px 20px;
+	margin: 10px 0 10px 0;
 	position: relative;
 
 	&::after {
@@ -81,13 +84,13 @@
 .select__dropdown li {
 	font-family: $font-lato;
 	color: $color-black;
-	width: 92%;
+	width: 100%;
 	background-color: white;
 	border: none;
 	border-radius: 50px;
 	box-shadow: $box-sh-container;
-	padding: 15px;
-	margin: 10px;
+	padding: 15px 20px;
+	text-align: center;
 }
 
 .select__dropdown {
@@ -106,14 +109,15 @@
 	margin: 90px 10px 0 10px;
 
 	&:hover {
-		outline: 1px solid #87cefa;
-		box-shadow: $box-sh-primary;
+		outline: 2px solid $color-primary;
 	}
 }
 
 .open {
+	width: 100%;
 	display: flex;
 	justify-content: space-between;
+	gap: 10px;
 }
 .select__dropdown.open {
 	margin-right: 25px;

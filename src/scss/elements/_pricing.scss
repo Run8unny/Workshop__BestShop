@@ -136,42 +136,41 @@
 }
 
 .pricing__box--basic:hover {
-	outline: 6px solid $color-violet;
-	box-shadow: $box-sh-violet;
+	outline: 4px solid $color-violet;
 
 	.btn--pricing--violet {
+		background-color: $color-violet;
+		outline: 2px solid $color-violet;
 		padding: 20px 35px 20px 35px;
-		box-shadow: $box-sh-violet;
+		border: 0;
 	}
 }
 
 .pricing__box--professional:hover {
-	outline: 6px solid #87cefa;
-	box-shadow: $box-sh-primary;
+	outline: 4px solid $color-primary;
 
 	.btn--pricing--primary {
+		background-color: $color-primary;
+		outline: 2px solid $color-primary;
 		padding: 20px 35px 20px 35px;
 		border: 0;
-		box-shadow: $box-sh-primary;
 	}
 }
 
 .pricing__box--premium:hover {
-	outline: 6px solid $color-green;
-	box-shadow: $box-sh-green;
+	outline: 4px solid $color-green;
 
 	.btn--pricing--green {
+		background-color: $color-green;
+		outline: 2px solid $color-green;
 		padding: 20px 35px 20px 35px;
 		border: 0;
-		box-shadow: $box-sh-green;
 	}
 }
 
 @media (max-width: 1080px) {
 	.section__pricing {
 		width: 100%;
-	}
-	.pricing__container {
 	}
 
 	.pricing__boxes {

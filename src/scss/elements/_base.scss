@@ -40,16 +40,13 @@ a {
 }
 
 .logo {
-	font-family: $font-extra;
-	font-weight: 900;
-	font-size: 1.5rem;
-	color: $color-white;
-	letter-spacing: 2px;
-	text-shadow: $text-sh;
-
 	&:hover {
 		color: $color-primary;
 	}
+}
+
+.png_logo {
+	width: 50px;
 }
 
 .btn {
@@ -66,7 +63,8 @@ a {
 	box-shadow: $box-sh-container;
 
 	&:hover {
-		box-shadow: $box-sh-primary;
+		background-color: $color-black;
+		color: $color-white;
 	}
 }
 

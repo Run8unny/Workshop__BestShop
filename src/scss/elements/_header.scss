@@ -22,10 +22,6 @@
 	padding: 0 30px 0 30px;
 }
 
-.header__logo {
-	font-size: 1.5rem;
-}
-
 .nav__menu {
 	list-style: none;
 	display: flex;
@@ -35,14 +31,15 @@
 	color: $color-white;
 	font-weight: 700;
 	font-size: 1rem;
-	padding: 28px 0 18px 0;
-	border-bottom: 4px solid transparent;
+	padding: 28px 0 24px 0;
+	border-bottom: 5px solid transparent;
 	letter-spacing: 0.1875rem;
+	text-transform: uppercase;
 }
 
 .menu__link:hover {
 	border-color: $color-primary;
-	color: $color-white;
+	color: $color-primary;
 }
 
 .menu__list {
