@@ -94,6 +94,10 @@
 }
 
 @media (max-width: 900px) {
+	.header {
+		border-radius: 0;
+	}
+
 	.burger__menu {
 		display: flex;
 	}
