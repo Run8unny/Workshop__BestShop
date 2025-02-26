@@ -26,7 +26,7 @@
 	color: $color-black;
 	background-color: white;
 	border: none;
-	border-radius: 12px;
+	border-radius: 35px;
 	box-shadow: $box-sh-container;
 	padding: 15px 20px;
 	margin: 10px 0 8px 0;
@@ -36,7 +36,7 @@
 	width: 100%;
 	background-color: $color-grey;
 	border: none;
-	border-radius: 12px;
+	border-radius: 35px;
 	box-shadow: $box-sh-container;
 	padding: 15px 20px;
 	margin: 10px;
@@ -66,7 +66,7 @@
 	width: 100%;
 	background-color: white;
 	border: none;
-	border-radius: 12px;
+	border-radius: 35px;
 	box-shadow: $box-sh-container;
 	padding: 15px 20px;
 	margin: 10px 0 10px 0;
@@ -90,7 +90,7 @@
 	width: 100%;
 	background-color: white;
 	border: none;
-	border-radius: 12px;
+	border-radius: 35px;
 	box-shadow: $box-sh-container;
 	padding: 15px 20px;
 	text-align: center;
@@ -106,10 +106,10 @@
 	justify-content: space-between;
 	background-color: $color-primary;
 	border: none;
-	border-radius: 12px;
+	border-radius: 35px;
 	box-shadow: $box-sh-container;
 	padding: 15px 20px;
-	margin: 90px 10px 0 10px;
+	margin-top: 70px;
 
 	&:hover {
 		outline: 2px solid $color-primary;

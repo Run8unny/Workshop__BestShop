@@ -4,6 +4,7 @@
 
 .section__contact {
 	padding: 70px 30px 70px 30px;
+	background-color: $color-black;
 }
 
 .contact__container {
@@ -15,7 +16,7 @@
 	border-top: 1px solid white;
 	box-shadow: $box-sh-container;
 	background-color: $color-light-grey;
-	border-radius: 8px;
+	border-radius: 18px;
 }
 
 .contact__form {
@@ -40,6 +41,7 @@
 	margin: 22px 0 42px;
 	font-size: 1.2rem;
 	line-height: 1.375rem;
+	font-weight: 300;
 }
 
 .form__info {
@@ -150,6 +152,7 @@
 	color: $color-grey;
 	line-height: 17px;
 	font-family: $font-lato;
+	font-weight: 300;
 }
 
 .form__row--button {
@@ -159,10 +162,13 @@
 }
 
 .btn--form {
-	font-family: $font-extra;
-	padding: 20px 97px;
-	align-self: flex-end;
-	margin-top: 30px;
+	display: flex;
+	background-color: $color-primary;
+	border: none;
+	border-radius: 35px;
+	box-shadow: $box-sh-container;
+	padding: 15px 50px;
+	margin: 90px 10px 0 10px;
 }
 
 @media (max-width: 1020px) {

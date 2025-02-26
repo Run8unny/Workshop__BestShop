@@ -13,8 +13,9 @@
 	justify-content: space-between;
 	align-items: flex-end;
 	margin: 0 0 30px 0;
-	border-radius: 8px;
+	border-radius: 18px;
 	box-shadow: $box-sh-container;
+	padding-top: 30px;
 }
 
 .info__text {
@@ -52,6 +53,7 @@
 .info__description {
 	color: $color-black;
 	line-height: 1.6rem;
+	font-weight: 300;
 }
 
 .info__rows--macbook .info__image {
@@ -117,7 +119,7 @@
 	background: $color-light-grey;
 	border: 1px solid $color-light-grey;
 	box-shadow: $box-sh-container;
-	border-radius: 8px;
+	border-radius: 18px;
 	max-width: 620px;
 	flex-grow: 1;
 }
@@ -136,7 +138,7 @@
 	background: $color-violet;
 	border: 1px solid $color-light-grey;
 	box-shadow: $box-sh-container;
-	border-radius: 8px;
+	border-radius: 18px;
 }
 
 .info__rows--part2 img {
@@ -196,7 +198,7 @@
 		background: $color-light-grey;
 		border: 1px solid $color-light-grey;
 		box-shadow: $box-sh-container;
-		border-radius: 8px;
+		border-radius: 18px;
 	}
 
 	.info__rows--part1 {
@@ -205,14 +207,14 @@
 		border: none;
 		justify-self: center;
 		box-shadow: none;
-		border-radius: 8px 8px 0 0;
+		border-radius: 18px 18px 0 0;
 	}
 	.info__rows--part2 img {
 		width: 100%;
 		height: auto;
 		margin: 30px;
 		padding: $padding-main;
-		border-radius: 0 0 8px 8px;
+		border-radius: 0 0 18px 18px;
 	}
 	.info__rows--part2 {
 		margin: 0;

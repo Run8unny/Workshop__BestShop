@@ -81,7 +81,7 @@
 
 .list__element {
 	font-family: $font-lato;
-	font-size: 0.9rem;
+	font-size: 1rem;
 	color: $color-black;
 	padding: $padding-small;
 }
@@ -119,7 +119,7 @@
 
 .btn--pricing {
 	width: 150px;
-	height: 50px;
+	padding: 15px 20px;
 	position: relative;
 	bottom: -25px;
 }
@@ -142,7 +142,6 @@
 	.btn--pricing--violet {
 		background-color: $color-violet;
 		outline: 2px solid $color-violet;
-		padding: 20px 35px 20px 35px;
 		border: 0;
 	}
 }
@@ -153,7 +152,6 @@
 	.btn--pricing--primary {
 		background-color: $color-primary;
 		outline: 2px solid $color-primary;
-		padding: 20px 35px 20px 35px;
 		border: 0;
 	}
 }
@@ -164,7 +162,6 @@
 	.btn--pricing--green {
 		background-color: $color-green;
 		outline: 2px solid $color-green;
-		padding: 20px 35px 20px 35px;
 		border: 0;
 	}
 }
