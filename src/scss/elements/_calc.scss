@@ -26,7 +26,7 @@
 	color: $color-black;
 	background-color: white;
 	border: none;
-	border-radius: 50px;
+	border-radius: 12px;
 	box-shadow: $box-sh-container;
 	padding: 15px 20px;
 	margin: 10px 0 8px 0;
@@ -36,7 +36,7 @@
 	width: 100%;
 	background-color: $color-grey;
 	border: none;
-	border-radius: 50px;
+	border-radius: 12px;
 	box-shadow: $box-sh-container;
 	padding: 15px 20px;
 	margin: 10px;
@@ -47,8 +47,11 @@
 	font-size: 1.2rem;
 }
 
-.form__checkbox {
-	margin: 10px 0 20px 0;
+.checkbox_box {
+	display: flex;
+	flex-direction: column;
+	justify-items: center;
+	margin-top: 3rem;
 }
 
 .list__item {
@@ -63,7 +66,7 @@
 	width: 100%;
 	background-color: white;
 	border: none;
-	border-radius: 50px;
+	border-radius: 12px;
 	box-shadow: $box-sh-container;
 	padding: 15px 20px;
 	margin: 10px 0 10px 0;
@@ -87,7 +90,7 @@
 	width: 100%;
 	background-color: white;
 	border: none;
-	border-radius: 50px;
+	border-radius: 12px;
 	box-shadow: $box-sh-container;
 	padding: 15px 20px;
 	text-align: center;
@@ -103,9 +106,9 @@
 	justify-content: space-between;
 	background-color: $color-primary;
 	border: none;
-	border-radius: 50px;
+	border-radius: 12px;
 	box-shadow: $box-sh-container;
-	padding: 20px;
+	padding: 15px 20px;
 	margin: 90px 10px 0 10px;
 
 	&:hover {
