@@ -205,12 +205,14 @@
 		border: none;
 		justify-self: center;
 		box-shadow: none;
+		border-radius: 8px 8px 0 0;
 	}
 	.info__rows--part2 img {
 		width: 100%;
 		height: auto;
 		margin: 30px;
 		padding: $padding-main;
+		border-radius: 0 0 8px 8px;
 	}
 	.info__rows--part2 {
 		margin: 0;

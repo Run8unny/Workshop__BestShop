@@ -11,13 +11,13 @@
 }
 
 .hero__inside {
-	margin: 100px auto;
+	margin: 200px auto;
 	text-align: center;
 }
 
 .btn--hero {
-	min-width: 320px;
-	height: 67px;
+	min-width: 400px;
+	height: 80px;
 	margin: 2rem;
 	text-transform: uppercase;
 }
@@ -37,26 +37,31 @@
 }
 
 .hero__background {
-	width: 50%;
+	width: 60%;
 	height: auto;
+	margin-bottom: 2rem;
 }
 
 @media (max-width: 950px) {
 	.hero__inside {
-		margin-top: 100px;
+		margin-top: 150px;
 	}
 
 	.hero__title {
 		font-size: 2.5rem;
+		line-height: 40px;
 	}
 
 	.hero__text {
 		font-size: 1.6rem;
-		padding: 1.8rem;
 		text-align: center;
 	}
 	.hero__background {
-		width: 140%;
-		transform: translateX(-11%);
+		width: 80%;
+	}
+
+	.btn--hero {
+		min-width: 350px;
+		height: 70px;
 	}
 }
